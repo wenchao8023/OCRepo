@@ -1,0 +1,6 @@
+framework module Pods_OCRepo_Example {
+  umbrella header "Pods-OCRepo_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

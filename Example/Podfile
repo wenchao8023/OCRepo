@@ -1,0 +1,8 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'OCRepo_Example' do
+  pod 'XYLog', :path => '../Packages/XYLog'
+  pod 'XYWeb', :path => '../Packages/XYWeb'
+end

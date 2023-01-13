@@ -1,0 +1,6 @@
+framework module XYWeb {
+  umbrella header "XYWeb-umbrella.h"
+
+  export *
+  module * { export * }
+}

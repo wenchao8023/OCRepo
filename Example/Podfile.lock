@@ -1,0 +1,21 @@
+PODS:
+  - XYLog (0.1.0)
+  - XYWeb (0.1.0)
+
+DEPENDENCIES:
+  - XYLog (from `../Packages/XYLog`)
+  - XYWeb (from `../Packages/XYWeb`)
+
+EXTERNAL SOURCES:
+  XYLog:
+    :path: "../Packages/XYLog"
+  XYWeb:
+    :path: "../Packages/XYWeb"
+
+SPEC CHECKSUMS:
+  XYLog: 40e92f235d9ed1b65b3099938dac02866778ae78
+  XYWeb: 449d334ea3775daf0c564f02467ab3796cc3ae49
+
+PODFILE CHECKSUM: 6719e88018a38d67e12d5f5a0545e6cae1782de5
+
+COCOAPODS: 1.11.3
