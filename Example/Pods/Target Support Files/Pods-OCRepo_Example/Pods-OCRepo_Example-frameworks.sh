@@ -176,10 +176,12 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/ManagerBook/ManagerBook.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XYLog/XYLog.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XYWeb/XYWeb.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/ManagerBook/ManagerBook.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XYLog/XYLog.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XYWeb/XYWeb.framework"
 fi

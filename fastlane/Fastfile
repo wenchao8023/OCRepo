@@ -1,0 +1,107 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+
+default_platform(:ios)
+
+platform :ios do
+	# 项目根目录
+	root_path = Pathname::new(File::dirname(__FILE__)).realpath.parent
+	# root_path = "#{Dir.pwd}"
+	# 私有仓库 Repo 目录
+	spec_path = "#{Dir.home}/.cocoapods/repos/CwenSpec/"
+	# 当前分支
+	branch = "master"
+	# 当前包路径
+	package = "Packages"
+
+	desc "更新组件 spec 版本号"
+	lane :podspec_update do
+		component = select_component()
+		UI.success("#{root_path}/#{component}")
+		podspec_update("#{root_path}/#{package}/#{component}", branch, component)
+	end
+
+	desc "更新组件 tag"
+	lane :tag_update do
+		component = select_component()
+		tag_update(branch, component)
+	end
+
+	desc "更新组件 repo"
+	lane :repo_update do
+		component = select_component()
+		repo_update(root_path, spec_path, component)
+	end
+
+	desc "一次更新所有"
+	lane :update_all do
+		component = select_component()
+		podspec_update(root_path, branch, component)
+		sh("cd #{root_path}")
+		tag_update(branch, component)
+		repo_update(root_path, spec_path, component)
+	end
+
+	desc "选择组件"
+	def select_component()
+		component = UI.select "选择组件：", %w{XYLog XYWeb}
+		return component
+	end
+
+	desc "更新组件 spec 版本号"
+	def podspec_update(root_path, branch, component)
+		UI.success("\n【Info】更新组件 spec 版本号\n")
+		ensure_git_branch(branch: "#{branch}")
+		git_pull
+		version = version_bump_podspec(path: "#{root_path}/#{component}.podspec", bump_type: "patch")
+		cocoapods(use_bundle_exec: false, podfile: "#{root_path}/Example/Podfile")
+		UI.success("【Info】#{component}.podspec----#{version}----#{branch}")
+	end
+
+	desc "更新组件 tag"
+	def tag_update(branch, component)
+		UI.success("\n【Info】更新组件 tag\n")
+		ensure_git_branch(branch: "#{branch}")
+		spec = read_podspec
+		version = spec["version"]
+		sh("git add . && git commit -m \"tag #{version}\"")	
+		git_add
+		git_commit(path: "./*.*", message: "tag #{version}")
+		ensure_git_status_clean
+		push_to_git_remote
+		add_git_tag(tag: version)
+		push_git_tags
+		UI.success("【Info】#{component}----tag: #{version}----#{branch}")
+	end
+
+	desc "更新组件 repo"
+	def repo_update(root_path, spec_path, component)
+		UI.success("\n【Info】更新组件 repo\n")
+		spec = read_podspec
+		version = spec["version"]
+		Dir.chdir(spec_path) do
+			UI.success("【Info】#{Dir.pwd}----repo: #{version}")
+			sh("git pull")
+			Dir.chdir("#{spec_path}/#{component}") do
+				sh("mkdir #{version}")
+				sh("cp #{root_path}/#{component}.podspec #{spec_path}/#{component}/#{version}")
+			end
+			sh("git add . && git commit -m \"#{component} tag #{version}\" && git push")
+		end
+		UI.success("【Info】#{component}----repo: #{version}")
+	end
+
+end
