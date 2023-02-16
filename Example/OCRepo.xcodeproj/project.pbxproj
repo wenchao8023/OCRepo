@@ -291,11 +291,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-OCRepo_Example/Pods-OCRepo_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ManagerBook/ManagerBook.framework",
 				"${BUILT_PRODUCTS_DIR}/XYLog/XYLog.framework",
 				"${BUILT_PRODUCTS_DIR}/XYWeb/XYWeb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ManagerBook.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XYLog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XYWeb.framework",
 			);

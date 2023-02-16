@@ -1,10 +1,19 @@
 PODS:
-  - XYLog (0.1.0)
+  - ManagerBook (0.1.8)
+  - MotivationalBook (0.1.9)
+  - XYLog (0.1.1)
   - XYWeb (0.1.0)
 
 DEPENDENCIES:
+  - ManagerBook
+  - MotivationalBook
   - XYLog (from `../Packages/XYLog`)
   - XYWeb (from `../Packages/XYWeb`)
+
+SPEC REPOS:
+  https://github.com/wenchao8023/CwenSpec.git:
+    - ManagerBook
+    - MotivationalBook
 
 EXTERNAL SOURCES:
   XYLog:
@@ -13,9 +22,11 @@ EXTERNAL SOURCES:
     :path: "../Packages/XYWeb"
 
 SPEC CHECKSUMS:
-  XYLog: 40e92f235d9ed1b65b3099938dac02866778ae78
+  ManagerBook: 8f757f17d4c18659c172fc77b7c35941ff8f371c
+  MotivationalBook: ca1286bbde3768f681472dccfb0f76deaff3ae4c
+  XYLog: 845e7960c5b27e731fa77a8e570f4284313eb5f3
   XYWeb: 449d334ea3775daf0c564f02467ab3796cc3ae49
 
-PODFILE CHECKSUM: 6719e88018a38d67e12d5f5a0545e6cae1782de5
+PODFILE CHECKSUM: 53505d4b3e2bde6b4e5c47aa24aa91942b6ac178
 
 COCOAPODS: 1.11.3
