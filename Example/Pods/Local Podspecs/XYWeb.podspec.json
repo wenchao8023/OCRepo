@@ -1,6 +1,6 @@
 {
   "name": "XYWeb",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of XYWeb.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wenchao8023/XYWeb",
@@ -12,8 +12,8 @@
     "wenchao8023": "15629120502@163.com"
   },
   "source": {
-    "git": "https://github.com/wenchao8023/XYWeb.git",
-    "tag": "0.1.1"
+    "git": "https://github.com/wenchao8023/OCRepo.git",
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "10.0"
