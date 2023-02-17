@@ -25,35 +25,37 @@ platform :ios do
 	# 当前分支
 	branch = "master"
 	# 当前包路径
-	package = "Packages"
+	package = "#{root_path}/Packages"
 
 	desc "更新组件 spec 版本号"
 	lane :podspec_update do
 		component = select_component()
 		UI.success("#{root_path}/#{component}")
-		podspec_update("#{root_path}/#{package}/#{component}", branch, component)
+		podspec_update(root_path, package, branch, component)
 	end
 
 	desc "更新组件 tag"
 	lane :tag_update do
 		component = select_component()
-		tag_update(branch, component)
+		tag_update(package, branch, component)
 	end
 
 	desc "更新组件 repo"
 	lane :repo_update do
 		component = select_component()
-		repo_update(root_path, spec_path, component)
+		repo_update(package, spec_path, component)
 	end
 
 	desc "一次更新所有"
 	lane :update_all do
 		component = select_component()
-		podspec_update(root_path, branch, component)
+		podspec_update(root_path, package, branch, component)
 		sh("cd #{root_path}")
-		tag_update(branch, component)
-		repo_update(root_path, spec_path, component)
+		tag_update(package, branch, component)
+		repo_update(package, spec_path, component)
 	end
+
+#########################################################################################################################
 
 	desc "选择组件"
 	def select_component()
@@ -62,20 +64,20 @@ platform :ios do
 	end
 
 	desc "更新组件 spec 版本号"
-	def podspec_update(root_path, branch, component)
+	def podspec_update(root_path, package, branch, component)
 		UI.success("\n【Info】更新组件 spec 版本号\n")
 		ensure_git_branch(branch: "#{branch}")
 		git_pull
-		version = version_bump_podspec(path: "#{root_path}/#{component}.podspec", bump_type: "patch")
+		version = version_bump_podspec(path: get_podspec(package, component), bump_type: "patch")
 		cocoapods(use_bundle_exec: false, podfile: "#{root_path}/Example/Podfile")
 		UI.success("【Info】#{component}.podspec----#{version}----#{branch}")
 	end
 
 	desc "更新组件 tag"
-	def tag_update(branch, component)
+	def tag_update(package, branch, component)
 		UI.success("\n【Info】更新组件 tag\n")
 		ensure_git_branch(branch: "#{branch}")
-		spec = read_podspec
+		spec = read_podspec(path: get_podspec(package, component))
 		version = spec["version"]
 		sh("git add . && git commit -m \"tag #{version}\"")	
 		git_add
@@ -88,7 +90,7 @@ platform :ios do
 	end
 
 	desc "更新组件 repo"
-	def repo_update(root_path, spec_path, component)
+	def repo_update(package, spec_path, component)
 		UI.success("\n【Info】更新组件 repo\n")
 		spec = read_podspec
 		version = spec["version"]
@@ -97,11 +99,18 @@ platform :ios do
 			sh("git pull")
 			Dir.chdir("#{spec_path}/#{component}") do
 				sh("mkdir #{version}")
-				sh("cp #{root_path}/#{component}.podspec #{spec_path}/#{component}/#{version}")
+				sh("cp #{get_podspec(package, component)} #{spec_path}/#{component}/#{version}")
 			end
 			sh("git add . && git commit -m \"#{component} tag #{version}\" && git push")
 		end
 		UI.success("【Info】#{component}----repo: #{version}")
+	end
+
+	desc "获取 podspec 路径"
+	def get_podspec(package, component)
+		podspec = "#{package}/#{component}/#{component}.podspec"
+		UI.success("\npodspec路径 #{podspec}")
+		return podspec
 	end
 
 end
