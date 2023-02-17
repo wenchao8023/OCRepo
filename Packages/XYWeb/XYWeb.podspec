@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XYWeb'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'A short description of XYWeb.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wenchao8023' => '15629120502@163.com' }
-  s.source           = { :git => 'https://github.com/wenchao8023/OCRepo.git', :tag => "XYWeb_#{s.version.to_s}"} }
+  s.source           = { :git => 'https://github.com/wenchao8023/OCRepo.git', :tag => "XYWeb_#{s.version.to_s}"}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

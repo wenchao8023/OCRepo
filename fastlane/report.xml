@@ -5,32 +5,29 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000456">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000829">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: read_podspec" time="0.12758">
+      <testcase classname="fastlane.lanes" name="1: ensure_git_branch" time="0.030623">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: git pull" time="4.466022">
+      <testcase classname="fastlane.lanes" name="2: git_pull" time="8.968742">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: mkdir 0.1.6" time="0.009786">
+      <testcase classname="fastlane.lanes" name="3: version_bump_podspec" time="0.003226">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: cp /Users/wenchao/Documents/File-Pod/Lerna-Package/PodRepo/OCRepo/Packages/XYWeb/XYWeb.podspec /Users/wenchao/.cocoapods/repos/CwenSpec/XYWeb/0.1.6" time="0.009499">
+      <testcase classname="fastlane.lanes" name="4: cocoapods" time="1.413534">
         
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="5: git add . &amp;&amp; git commit -m &quot;XYWeb tag 0.1.6&quot; &amp;&amp; git push" time="4.073854">
+          <failure message="/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:229:in `chdir'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:229:in `execute_action'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:72:in `podspec_update'&#10;Fastfile:34:in `block (2 levels) in parsing_binding'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/commands_generator.rb:110:in `block (2 levels) in run'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-4.6.0/lib/commander/command.rb:187:in `call'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-4.6.0/lib/commander/command.rb:157:in `run'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:124:in `run!'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/commands_generator.rb:354:in `run'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/commands_generator.rb:43:in `start'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/cli_tools_distributor.rb:123:in `take_off'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.211.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Analyzing dependencies&#10;[!] Failed to load 'XYWeb' podspec: &#10;[!] Invalid `XYWeb.podspec` file: syntax error, unexpected tSTRING_DEND, expecting end&#10;...=&gt; &quot;XYWeb_#{s.version.to_s}&quot;} }&#10;...                              ^&#10;/Users/wenchao/Documents/File-Pod/Lerna-Package/PodRepo/OCRepo/Packages/XYWeb/XYWeb.podspec:42: syntax error, unexpected end, expecting end-of-input.&#10;&#10; #  from /Users/wenchao/Documents/File-Pod/Lerna-Package/PodRepo/OCRepo/Packages/XYWeb/XYWeb.podspec:28&#10; #  -------------------------------------------&#10; #    s.author           = { 'wenchao8023' =&gt; '15629120502@163.com' }&#10; &gt;    s.source           = { :git =&gt; 'https://github.com/wenchao8023/OCRepo.git', :tag =&gt; &quot;XYWeb_#{s.version.to_s}&quot;} }&#10; #    # s.social_media_url = 'https://twitter.com/&lt;TWITTER_USERNAME&gt;'&#10; #  -------------------------------------------&#10;" />
         
       </testcase>
     
