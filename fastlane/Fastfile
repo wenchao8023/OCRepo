@@ -79,12 +79,12 @@ platform :ios do
 		ensure_git_branch(branch: "#{branch}")
 		spec = read_podspec(path: get_podspec(package, component))
 		version = spec["version"]
-		sh("git add . && git commit -m \"tag #{version}\"")	
-		git_add
-		git_commit(path: "./*.*", message: "tag #{version}")
+		sh("git add . && git commit -m \"tag #{component} #{version}\"")	
+		# git_add
+		# git_commit(path: "./*.*", message: "tag #{version}")
 		ensure_git_status_clean
 		push_to_git_remote
-		add_git_tag(tag: version)
+		add_git_tag(tag: "#{component}_#{version}")
 		push_git_tags
 		UI.success("【Info】#{component}----tag: #{version}----#{branch}")
 	end
