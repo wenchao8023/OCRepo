@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'XYLog/Classes/**/*'
+  s.source_files = 'Packages/XYLog/XYLog/Classes/**/*'
   
   # s.resource_bundles = {
   #   'XYLog' => ['XYLog/Assets/*.png']
