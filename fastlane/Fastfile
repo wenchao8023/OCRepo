@@ -81,8 +81,8 @@ platform :ios do
 		version = spec["version"]
 		tag = "#{component}\_#{version}"
 		sh("git add . && git commit -m \"tag #{tag}\"")	
-		# git_add
-		# git_commit(path: "./*.*", message: "tag #{version}")
+		git_add
+		git_commit(path: "./*.*", message: "tag #{tag}")
 		ensure_git_status_clean
 		push_to_git_remote
 		add_git_tag(tag: tag)
