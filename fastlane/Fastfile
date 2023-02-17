@@ -80,7 +80,6 @@ platform :ios do
 		spec = read_podspec(path: get_podspec(package, component))
 		version = spec["version"]
 		tag = "#{component}\_#{version}"
-		sh("git add . && git commit -m \"tag #{tag}\"")	
 		git_add
 		git_commit(path: "./*.*", message: "tag #{tag}")
 		ensure_git_status_clean

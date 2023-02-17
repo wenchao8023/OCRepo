@@ -5,27 +5,52 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000427">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000541">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: ensure_git_branch" time="0.025838">
+      <testcase classname="fastlane.lanes" name="1: ensure_git_branch" time="0.026446">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: git_pull" time="8.992012">
+      <testcase classname="fastlane.lanes" name="2: read_podspec" time="0.146422">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: version_bump_podspec" time="0.00226">
+      <testcase classname="fastlane.lanes" name="3: git add . &amp;&amp; git commit -m &quot;tag XYWeb_0.1.5&quot;" time="0.072991">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: cocoapods" time="1.976943">
+      <testcase classname="fastlane.lanes" name="4: git_add" time="0.030915">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: git_commit" time="0.054574">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: ensure_git_status_clean" time="0.024369">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="7: push_to_git_remote" time="4.303647">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="8: add_git_tag" time="0.036292">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="9: push_git_tags" time="4.353303">
         
       </testcase>
     
