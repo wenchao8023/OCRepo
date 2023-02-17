@@ -5,27 +5,27 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000553">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000387">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: ensure_git_branch" time="0.022629">
+      <testcase classname="fastlane.lanes" name="1: ensure_git_branch" time="0.026561">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: git_pull" time="7.650916">
+      <testcase classname="fastlane.lanes" name="2: git_pull" time="8.019224">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: version_bump_podspec" time="0.002132">
+      <testcase classname="fastlane.lanes" name="3: version_bump_podspec" time="0.001927">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: cocoapods" time="1.781686">
+      <testcase classname="fastlane.lanes" name="4: cocoapods" time="1.979749">
         
       </testcase>
     

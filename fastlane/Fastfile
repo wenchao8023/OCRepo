@@ -98,7 +98,6 @@ platform :ios do
 			UI.success("【Info】#{Dir.pwd}----repo: #{version}")
 			sh("git pull")
 			com_spec_path = "#{spec_path}/#{component}"
-			sh("mkdir #{com_spec_path}")
 			Dir.chdir(com_spec_path) do
 				sh("mkdir #{version}")
 				sh("cp #{get_podspec(package, component)} #{spec_path}/#{component}/#{version}")
