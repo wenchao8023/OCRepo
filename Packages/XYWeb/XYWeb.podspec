@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'XYWeb/Classes/**/*'
+  s.source_files = 'Packages/XYWeb/Classes/**/*', 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'XYWeb' => ['XYWeb/Assets/*.png']

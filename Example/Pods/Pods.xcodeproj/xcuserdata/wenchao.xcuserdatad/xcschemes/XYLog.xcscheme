@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A3BBBD0AF3E51B0B83A19D57DECC5732"
-               BuildableName = "XYLog"
+               BuildableName = "XYLog.framework"
                BlueprintName = "XYLog"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

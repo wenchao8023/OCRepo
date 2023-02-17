@@ -5,27 +5,32 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.0004">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000382">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: ensure_git_branch" time="0.019586">
+      <testcase classname="fastlane.lanes" name="1: read_podspec" time="0.140413">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: git_pull" time="16.406418">
+      <testcase classname="fastlane.lanes" name="2: git pull" time="8.399925">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: version_bump_podspec" time="0.001997">
+      <testcase classname="fastlane.lanes" name="3: mkdir 0.1.7" time="0.007807">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: cocoapods" time="1.831006">
+      <testcase classname="fastlane.lanes" name="4: cp /Users/wenchao/Documents/File-Pod/Lerna-Package/PodRepo/OCRepo/Packages/XYLog/XYLog.podspec /Users/wenchao/.cocoapods/repos/CwenSpec/XYLog/0.1.7" time="0.008102">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: git add . &amp;&amp; git commit -m &quot;XYLog tag 0.1.7&quot; &amp;&amp; git push" time="6.957694">
         
       </testcase>
     

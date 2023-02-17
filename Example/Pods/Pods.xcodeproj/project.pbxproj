@@ -6,66 +6,59 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		A3BBBD0AF3E51B0B83A19D57DECC5732 /* XYLog */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 286A1AACA600C3A045EB258B9737FA08 /* Build configuration list for PBXAggregateTarget "XYLog" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = XYLog;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		09049E49FC4CFC01BB1E314E4F8611E7 /* Target_BookShopDependency.m in Sources */ = {isa = PBXBuildFile; fileRef = 703F9B965010BC27ABF80995205C32B1 /* Target_BookShopDependency.m */; };
+		0E3386553DCF2E0585850F96169AC105 /* XYLog.h in Headers */ = {isa = PBXBuildFile; fileRef = B2B08E1C042B0F242DBE05DF9278BBB1 /* XYLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C888A9F47D10E8842EA15077B7FAB6 /* XYLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 560688EB849B0123065B56C9E49BE549 /* XYLog.m */; };
 		16222AD35FD77186AFCED6DA4B3ED582 /* Target_BookShopDependency.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B7805EC1182398B9C7054EF5FFF140E /* Target_BookShopDependency.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2168725D4F7A7EB78AEAAD4E7F12140B /* Pods-OCRepo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 961F321846FA49A40CEF810A473E99BC /* Pods-OCRepo_Example-dummy.m */; };
-		2C6162670BA4D4B0B17CE9084E1C2DE4 /* XYWeb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BEA2FCEA4576F8B8C6AADF0334B3B0 /* XYWeb-dummy.m */; };
+		2C6162670BA4D4B0B17CE9084E1C2DE4 /* XYWeb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6B5F5F65BA3DB4BFB8E102C2177E9C /* XYWeb-dummy.m */; };
 		38242ED0DEF015A6695B245E3E64C8AF /* ManagerBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF38AF0E0B9AB32B1785D64B8C2967A9 /* ManagerBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		528D6228DD55C6C2D3E49CADA1488248 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		534D7CE422467118511183E984FD88C7 /* XYLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C35617ED3684FC3E711897AE634589A7 /* XYLog-dummy.m */; };
 		542E2E880CC464715E6F583D477791FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		56C7348C27C6EBBA1A4CC9BB9323B6ED /* ManagerBookVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C4F51CE580CC3FCDACA4AE9B4A7F49 /* ManagerBookVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FC3F47500BF9619245A763FE8FAF3C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		60E32A20E5AC69C80F945F512E37EE21 /* XYWeb.h in Headers */ = {isa = PBXBuildFile; fileRef = 24789AA5CE59F242296043F95C608A92 /* XYWeb.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77792D38A78C3E424C271E83EF5BF9D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		78B4BA8B31C02F7FE6E30B6C42025B59 /* MotivationalBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46967B6DCDBBB776B95979E512F3C2AD /* MotivationalBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A68CCC3A5FDDF207F10B710745ED5D9 /* Pods-OCRepo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DECA6DE2464EBDC88737752FA5B367E1 /* Pods-OCRepo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8591A1DF4BA4C7D29D78C109E954D60B /* ManagerBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B91B3D48EE255F709906E5C2FE4F5BE /* ManagerBookVC.m */; };
+		85D83311A066BA3167646DAF09C0596C /* XYWeb.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B4C2F3F3AF1630B5A36A97A32B51A6 /* XYWeb.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8886B4F1C487BB12583D5B8E92709868 /* ManagerBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A75EDDD1D6F7E2BE2153945CA15C8 /* ManagerBook-dummy.m */; };
-		996EA1593F8423FDEC1110764569D231 /* XYWeb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D28589A74B28482391EB8E59D72EC07E /* XYWeb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C60B04C23A59EC261D26E03B9DADD68 /* XYLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A5727FEDAC2EED6C94339AB55C85C2 /* XYLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996EA1593F8423FDEC1110764569D231 /* XYWeb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A16E9A520CD9D5418B3C81AB4B9FA51 /* XYWeb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B3BE2B9B50C7F89E7DB8BED26EF97C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B60A4A05D0673E76EC8E37649B35CF56 /* Target_BookShopDependency.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D18F48217F33D39270F8FBA2AA0E686 /* Target_BookShopDependency.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C709C812BBF4F88F7ED24291D725A2DF /* MotivationalBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 948932BF49B0A2CD69CA3152AFBE94F1 /* MotivationalBookVC.m */; };
 		D84BA69094890D135B65A6ACD055D7B2 /* Target_BookShopDependency.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F453452B67AA72A053ABBB6720C7791 /* Target_BookShopDependency.m */; };
 		DC0D98621B16831256D92EA5D2E96FFF /* MotivationalBookVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C1C0271D3E23D6908487FA8BEDDC80 /* MotivationalBookVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5389395110E756FA99AB73702D88E3C /* XYWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = EBECD63027B2CED3BCB74DA6807BFF69 /* XYWeb.m */; };
 		EC3D0AE13373B043CF799D0A3C03B53D /* MotivationalBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C71E767E93FE821BFD3C72A6677D9038 /* MotivationalBook-dummy.m */; };
-		ED20B850E0E4C8967F387B804D626445 /* XYWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = CB820E4BCB4A0870DB9B9FE41A8E6D33 /* XYWeb.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		06ADAA0B9CDCAC6DF7FEC5C1E4231AEA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8F3CF7A33DF0C90D8BF3B6E2F1679382;
-			remoteInfo = XYWeb;
-		};
-		38FBB87C62E152FC97766FDD548DAC0F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A3BBBD0AF3E51B0B83A19D57DECC5732;
-			remoteInfo = XYLog;
-		};
-		A5483C5934E70B7464BB66BDAF045314 /* PBXContainerItemProxy */ = {
+		18EA154E0D85B6E433F160D2C9CE2546 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BB60C5C230110035501DEAA59B3F06CF;
 			remoteInfo = MotivationalBook;
 		};
-		B592A18033EB3BB15DFF1F26D9503492 /* PBXContainerItemProxy */ = {
+		C614A81676AD4F2C5AC0B2D0EE15A1BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3BBBD0AF3E51B0B83A19D57DECC5732;
+			remoteInfo = XYLog;
+		};
+		D564D35219EAAEAFC0F4C73619E6A90E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F3CF7A33DF0C90D8BF3B6E2F1679382;
+			remoteInfo = XYWeb;
+		};
+		FDD7F8F335692DA4374F9DC63922D422 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -76,16 +69,20 @@
 
 /* Begin PBXFileReference section */
 		096722AD371DE2C698B73409EBC588B0 /* XYWeb */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XYWeb; path = XYWeb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CE4E21664FFEFFE52BBA2B0224CB5FF /* XYWeb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYWeb.debug.xcconfig; sourceTree = "<group>"; };
+		0A16E9A520CD9D5418B3C81AB4B9FA51 /* XYWeb-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYWeb-umbrella.h"; sourceTree = "<group>"; };
+		1533A8E70F44813BA10A73924E0C990D /* XYWeb.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XYWeb.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		173F39844AF1D866F98882CB74F54329 /* MotivationalBook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MotivationalBook-Info.plist"; sourceTree = "<group>"; };
 		1B7805EC1182398B9C7054EF5FFF140E /* Target_BookShopDependency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_BookShopDependency.h; path = ManagerBook/Classes/Target_BookShopDependency.h; sourceTree = "<group>"; };
-		24789AA5CE59F242296043F95C608A92 /* XYWeb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYWeb.h; path = XYWeb/Classes/XYWeb.h; sourceTree = "<group>"; };
+		220E806EE4A0EA726CDED894AAA6608D /* XYLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYLog-prefix.pch"; sourceTree = "<group>"; };
+		258535F67BE41972E042DEF81F08BEAF /* XYLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYLog.release.xcconfig; sourceTree = "<group>"; };
+		2661FDBA9DF416157AAE6A36290E9156 /* XYLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XYLog-Info.plist"; sourceTree = "<group>"; };
+		437B0689175CEF20E8F0218BB2F81690 /* XYLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XYLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46967B6DCDBBB776B95979E512F3C2AD /* MotivationalBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotivationalBook-umbrella.h"; sourceTree = "<group>"; };
-		4A418ACC0D3D82F6FA31672C104D8490 /* XYLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYLog.debug.xcconfig; sourceTree = "<group>"; };
+		49A308CED65BC2A122A6EC2C29959284 /* XYLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYLog.debug.xcconfig; sourceTree = "<group>"; };
 		4C1FA28D48D1F50C98EC02145306F57F /* MotivationalBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotivationalBook.release.xcconfig; sourceTree = "<group>"; };
-		4E560BF6CE3ABE10A2012D823A6D9936 /* XYWeb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYWeb-prefix.pch"; sourceTree = "<group>"; };
 		515B8AB916A39F87D9BC3EA2D5AA9FDA /* MotivationalBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotivationalBook-prefix.pch"; sourceTree = "<group>"; };
-		5674FDD0214E7BAD8860E1A56E190117 /* XYWeb.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XYWeb.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5554F68BEEBA66F5F0AF3E5FD036279C /* XYWeb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYWeb.release.xcconfig; sourceTree = "<group>"; };
+		560688EB849B0123065B56C9E49BE549 /* XYLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XYLog.m; path = Classes/XYLog.m; sourceTree = "<group>"; };
 		58C1C0271D3E23D6908487FA8BEDDC80 /* MotivationalBookVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MotivationalBookVC.h; path = MotivationalBook/Classes/MotivationalBookVC.h; sourceTree = "<group>"; };
 		5F453452B67AA72A053ABBB6720C7791 /* Target_BookShopDependency.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_BookShopDependency.m; path = ManagerBook/Classes/Target_BookShopDependency.m; sourceTree = "<group>"; };
 		6973617440AD741FCD6C72A2935F9C1C /* Pods-OCRepo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRepo_Example-Info.plist"; sourceTree = "<group>"; };
@@ -93,35 +90,39 @@
 		6D18F48217F33D39270F8FBA2AA0E686 /* Target_BookShopDependency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_BookShopDependency.h; path = MotivationalBook/Classes/Target_BookShopDependency.h; sourceTree = "<group>"; };
 		703F9B965010BC27ABF80995205C32B1 /* Target_BookShopDependency.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_BookShopDependency.m; path = MotivationalBook/Classes/Target_BookShopDependency.m; sourceTree = "<group>"; };
 		70A9A76EAA331CF773A96B202884E340 /* Pods-OCRepo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRepo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		72310361A67F97312E34910C7A92AA9D /* XYWeb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYWeb.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		739E38B17C62D84DD5B2977C5EF13D11 /* Pods-OCRepo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRepo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		76A5727FEDAC2EED6C94339AB55C85C2 /* XYLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYLog-umbrella.h"; sourceTree = "<group>"; };
 		77D17E6D2F3C69BE43F41CD968459E32 /* Pods-OCRepo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCRepo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7DA1C6BB879CD3BCF2F4B91EAEDFE70A /* XYWeb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYWeb.release.xcconfig; sourceTree = "<group>"; };
+		7BEC3A3AA4A8576A9285196307724BB9 /* XYLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XYLog.modulemap; sourceTree = "<group>"; };
 		844A75EDDD1D6F7E2BE2153945CA15C8 /* ManagerBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ManagerBook-dummy.m"; sourceTree = "<group>"; };
 		8467FB5F6670532F11EE5FA3DE1DB80E /* Pods-OCRepo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRepo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		84C4F51CE580CC3FCDACA4AE9B4A7F49 /* ManagerBookVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ManagerBookVC.h; path = ManagerBook/Classes/ManagerBookVC.h; sourceTree = "<group>"; };
-		8A3E490FBC7FBEE7B6AFBB9A8112CB23 /* XYWeb-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XYWeb-Info.plist"; sourceTree = "<group>"; };
 		8B14EEB020DDA49B1AFDB0E028C07028 /* ManagerBook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ManagerBook-Info.plist"; sourceTree = "<group>"; };
-		92BEA2FCEA4576F8B8C6AADF0334B3B0 /* XYWeb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XYWeb-dummy.m"; sourceTree = "<group>"; };
 		948932BF49B0A2CD69CA3152AFBE94F1 /* MotivationalBookVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MotivationalBookVC.m; path = MotivationalBook/Classes/MotivationalBookVC.m; sourceTree = "<group>"; };
 		961F321846FA49A40CEF810A473E99BC /* Pods-OCRepo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCRepo_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F555AADF6B1B8A31AA1A2BFEC60B064 /* XYLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XYLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A59B7CD172E3A5359F1222AE31DEFCA3 /* MotivationalBook */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MotivationalBook; path = MotivationalBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87585DC07DB7517285700601134E52A /* XYWeb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYWeb-prefix.pch"; sourceTree = "<group>"; };
+		A9E4DE2FB93D49FA6A72756879E1BBAF /* XYLog */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XYLog; path = XYLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6AE6F36BC144095EE3A8749AFD9C69 /* ManagerBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ManagerBook.debug.xcconfig; sourceTree = "<group>"; };
-		B46CDF9ECCB59256A469723CBDC710A6 /* XYWeb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XYWeb.modulemap; sourceTree = "<group>"; };
+		B2B08E1C042B0F242DBE05DF9278BBB1 /* XYLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYLog.h; path = Classes/XYLog.h; sourceTree = "<group>"; };
+		B5B4C2F3F3AF1630B5A36A97A32B51A6 /* XYWeb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYWeb.h; path = Classes/XYWeb.h; sourceTree = "<group>"; };
 		BDBBC495D4003FFF2F96E3890C296F55 /* ManagerBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManagerBook-prefix.pch"; sourceTree = "<group>"; };
+		C35617ED3684FC3E711897AE634589A7 /* XYLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XYLog-dummy.m"; sourceTree = "<group>"; };
 		C6314B6BC6907D7966039EE4CEB74CC6 /* Pods-OCRepo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCRepo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C71E767E93FE821BFD3C72A6677D9038 /* MotivationalBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MotivationalBook-dummy.m"; sourceTree = "<group>"; };
 		C9C75701966A75443A787D2E92EBBD53 /* MotivationalBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MotivationalBook.modulemap; sourceTree = "<group>"; };
-		CB820E4BCB4A0870DB9B9FE41A8E6D33 /* XYWeb.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XYWeb.m; path = XYWeb/Classes/XYWeb.m; sourceTree = "<group>"; };
-		CE50E2E77CA59F6F802565FB5BFE273D /* XYLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYLog.release.xcconfig; sourceTree = "<group>"; };
 		CF38AF0E0B9AB32B1785D64B8C2967A9 /* ManagerBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManagerBook-umbrella.h"; sourceTree = "<group>"; };
-		D28589A74B28482391EB8E59D72EC07E /* XYWeb-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYWeb-umbrella.h"; sourceTree = "<group>"; };
 		D809AAFEB3EE0AF4F5CF698767CCB974 /* ManagerBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ManagerBook.modulemap; sourceTree = "<group>"; };
 		DECA6DE2464EBDC88737752FA5B367E1 /* Pods-OCRepo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCRepo_Example-umbrella.h"; sourceTree = "<group>"; };
 		E4A7CC036EFC1252978EBAABAA48A5C8 /* Pods-OCRepo_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OCRepo_Example"; path = Pods_OCRepo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E507E34559CEC951104E9EB43E701D70 /* Pods-OCRepo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCRepo_Example.modulemap"; sourceTree = "<group>"; };
+		EBECD63027B2CED3BCB74DA6807BFF69 /* XYWeb.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XYWeb.m; path = Classes/XYWeb.m; sourceTree = "<group>"; };
+		EE6B5F5F65BA3DB4BFB8E102C2177E9C /* XYWeb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XYWeb-dummy.m"; sourceTree = "<group>"; };
+		F0426FF37735B11074A26C5E7842E65C /* XYWeb-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XYWeb-Info.plist"; sourceTree = "<group>"; };
+		F3DFA16C41D1CF7F5E5BCA672F9AB379 /* XYWeb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XYWeb.modulemap; sourceTree = "<group>"; };
 		F70B45736BED447DD1D164A089DA6F91 /* ManagerBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ManagerBook.release.xcconfig; sourceTree = "<group>"; };
 		FA90BC9F30AD4D196E4C2A3C690A6054 /* MotivationalBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotivationalBook.debug.xcconfig; sourceTree = "<group>"; };
 		FF731AEEDB44A4A73B538DE0043B30F8 /* ManagerBook */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ManagerBook; path = ManagerBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +153,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C6D29F1912ADE89A3201196BEBC96B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B3BE2B9B50C7F89E7DB8BED26EF97C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CD2D9B63F22510C0FD1920E878951E9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -163,24 +172,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04EAF87DD128B7AFBCE39A20E489C194 /* Pod */ = {
+		028A9758BDAFD1A642D277D30F41D317 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5674FDD0214E7BAD8860E1A56E190117 /* XYWeb.podspec */,
+				FF731AEEDB44A4A73B538DE0043B30F8 /* ManagerBook */,
+				A59B7CD172E3A5359F1222AE31DEFCA3 /* MotivationalBook */,
+				E4A7CC036EFC1252978EBAABAA48A5C8 /* Pods-OCRepo_Example */,
+				A9E4DE2FB93D49FA6A72756879E1BBAF /* XYLog */,
+				096722AD371DE2C698B73409EBC588B0 /* XYWeb */,
 			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		103E597067555FB7D5CA2B3F96DEFC78 /* XYWeb */ = {
+		243662947230B944F785DB67D0EC0026 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				24789AA5CE59F242296043F95C608A92 /* XYWeb.h */,
-				CB820E4BCB4A0870DB9B9FE41A8E6D33 /* XYWeb.m */,
-				04EAF87DD128B7AFBCE39A20E489C194 /* Pod */,
-				C8291AEDF3B4F1139AAB2E66A1419787 /* Support Files */,
+				7BEC3A3AA4A8576A9285196307724BB9 /* XYLog.modulemap */,
+				C35617ED3684FC3E711897AE634589A7 /* XYLog-dummy.m */,
+				2661FDBA9DF416157AAE6A36290E9156 /* XYLog-Info.plist */,
+				220E806EE4A0EA726CDED894AAA6608D /* XYLog-prefix.pch */,
+				76A5727FEDAC2EED6C94339AB55C85C2 /* XYLog-umbrella.h */,
+				49A308CED65BC2A122A6EC2C29959284 /* XYLog.debug.xcconfig */,
+				258535F67BE41972E042DEF81F08BEAF /* XYLog.release.xcconfig */,
 			);
-			name = XYWeb;
-			path = ../../Packages/XYWeb;
+			name = "Support Files";
+			path = "../../Example/Pods/Target Support Files/XYLog";
 			sourceTree = "<group>";
 		};
 		27408452655BE62BD511D5F555F08DC8 /* Targets Support Files */ = {
@@ -253,24 +269,16 @@
 			path = MotivationalBook;
 			sourceTree = "<group>";
 		};
-		67AE54AE20C96B6243574A1A78556A47 /* XYLog */ = {
+		63639E7752E88637BB12496740533607 /* XYWeb */ = {
 			isa = PBXGroup;
 			children = (
-				B41206307CC3335923BA9D3B03DD6E44 /* Pod */,
-				76E1199710AC4F8D2752A4694A719A6C /* Support Files */,
+				B5B4C2F3F3AF1630B5A36A97A32B51A6 /* XYWeb.h */,
+				EBECD63027B2CED3BCB74DA6807BFF69 /* XYWeb.m */,
+				A634E2949659E966AACB5B6EF936D3A0 /* Pod */,
+				D0E23CA35DA6F4D275DDA8ED5D13B4BF /* Support Files */,
 			);
-			name = XYLog;
-			path = ../../Packages/XYLog;
-			sourceTree = "<group>";
-		};
-		76E1199710AC4F8D2752A4694A719A6C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4A418ACC0D3D82F6FA31672C104D8490 /* XYLog.debug.xcconfig */,
-				CE50E2E77CA59F6F802565FB5BFE273D /* XYLog.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../Example/Pods/Target Support Files/XYLog";
+			name = XYWeb;
+			path = ../../Packages/XYWeb;
 			sourceTree = "<group>";
 		};
 		7A8E0BC2174B5019135A0054714CF170 /* Support Files */ = {
@@ -288,6 +296,15 @@
 			path = "../Target Support Files/MotivationalBook";
 			sourceTree = "<group>";
 		};
+		8DAB730FE65CABF6D27733A433F771B2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA608D05190014DC9AD7644EEF7875B8 /* XYLog */,
+				63639E7752E88637BB12496740533607 /* XYWeb */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		8FE4DED126C1E1F6C53666F9330AA553 /* ManagerBook */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,48 +318,47 @@
 			path = ManagerBook;
 			sourceTree = "<group>";
 		};
-		B41206307CC3335923BA9D3B03DD6E44 /* Pod */ = {
+		A634E2949659E966AACB5B6EF936D3A0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9F555AADF6B1B8A31AA1A2BFEC60B064 /* XYLog.podspec */,
+				1533A8E70F44813BA10A73924E0C990D /* XYWeb.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		C8291AEDF3B4F1139AAB2E66A1419787 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B46CDF9ECCB59256A469723CBDC710A6 /* XYWeb.modulemap */,
-				92BEA2FCEA4576F8B8C6AADF0334B3B0 /* XYWeb-dummy.m */,
-				8A3E490FBC7FBEE7B6AFBB9A8112CB23 /* XYWeb-Info.plist */,
-				4E560BF6CE3ABE10A2012D823A6D9936 /* XYWeb-prefix.pch */,
-				D28589A74B28482391EB8E59D72EC07E /* XYWeb-umbrella.h */,
-				0CE4E21664FFEFFE52BBA2B0224CB5FF /* XYWeb.debug.xcconfig */,
-				7DA1C6BB879CD3BCF2F4B91EAEDFE70A /* XYWeb.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../Example/Pods/Target Support Files/XYWeb";
-			sourceTree = "<group>";
-		};
-		CC1D1424ABC0625D5DFB7D8412D0D4D8 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				67AE54AE20C96B6243574A1A78556A47 /* XYLog */,
-				103E597067555FB7D5CA2B3F96DEFC78 /* XYWeb */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CC1D1424ABC0625D5DFB7D8412D0D4D8 /* Development Pods */,
+				8DAB730FE65CABF6D27733A433F771B2 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				40E04126F7E88A1157B36E61A11636B2 /* Pods */,
-				E5F8EFA3C635A6AFB40101B1A12869FB /* Products */,
+				028A9758BDAFD1A642D277D30F41D317 /* Products */,
 				27408452655BE62BD511D5F555F08DC8 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D03AB1B37BA804D5C52A9C5368EC3799 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				437B0689175CEF20E8F0218BB2F81690 /* XYLog.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D0E23CA35DA6F4D275DDA8ED5D13B4BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3DFA16C41D1CF7F5E5BCA672F9AB379 /* XYWeb.modulemap */,
+				EE6B5F5F65BA3DB4BFB8E102C2177E9C /* XYWeb-dummy.m */,
+				F0426FF37735B11074A26C5E7842E65C /* XYWeb-Info.plist */,
+				A87585DC07DB7517285700601134E52A /* XYWeb-prefix.pch */,
+				0A16E9A520CD9D5418B3C81AB4B9FA51 /* XYWeb-umbrella.h */,
+				72310361A67F97312E34910C7A92AA9D /* XYWeb.debug.xcconfig */,
+				5554F68BEEBA66F5F0AF3E5FD036279C /* XYWeb.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Example/Pods/Target Support Files/XYWeb";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -353,15 +369,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E5F8EFA3C635A6AFB40101B1A12869FB /* Products */ = {
+		DA608D05190014DC9AD7644EEF7875B8 /* XYLog */ = {
 			isa = PBXGroup;
 			children = (
-				FF731AEEDB44A4A73B538DE0043B30F8 /* ManagerBook */,
-				A59B7CD172E3A5359F1222AE31DEFCA3 /* MotivationalBook */,
-				E4A7CC036EFC1252978EBAABAA48A5C8 /* Pods-OCRepo_Example */,
-				096722AD371DE2C698B73409EBC588B0 /* XYWeb */,
+				B2B08E1C042B0F242DBE05DF9278BBB1 /* XYLog.h */,
+				560688EB849B0123065B56C9E49BE549 /* XYLog.m */,
+				D03AB1B37BA804D5C52A9C5368EC3799 /* Pod */,
+				243662947230B944F785DB67D0EC0026 /* Support Files */,
 			);
-			name = Products;
+			name = XYLog;
+			path = ../../Packages/XYLog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,8 +406,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60E32A20E5AC69C80F945F512E37EE21 /* XYWeb.h in Headers */,
+				85D83311A066BA3167646DAF09C0596C /* XYWeb.h in Headers */,
 				996EA1593F8423FDEC1110764569D231 /* XYWeb-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4F5620B3596306F13BCA050DDDBEEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3386553DCF2E0585850F96169AC105 /* XYLog.h in Headers */,
+				8C60B04C23A59EC261D26E03B9DADD68 /* XYLog-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,14 +481,32 @@
 			buildRules = (
 			);
 			dependencies = (
-				DA1669B80853478D229EA22390BBC9B1 /* PBXTargetDependency */,
-				AE2AFC4A4AD3E4A2356A5A9146C3319D /* PBXTargetDependency */,
-				A4FCECD31204394E179C1FE0CE0A2C69 /* PBXTargetDependency */,
-				229920B20FFCD509A8925D14EB576980 /* PBXTargetDependency */,
+				2F5E089C836116E42B58FA515894F56A /* PBXTargetDependency */,
+				2458ED7B1DCD50B01751A66F78F6CBBA /* PBXTargetDependency */,
+				237F59EE5AB5176EEE0FF7D1AE500CCA /* PBXTargetDependency */,
+				C22026211E8D6C6F69EB108AD83D26A7 /* PBXTargetDependency */,
 			);
 			name = "Pods-OCRepo_Example";
 			productName = Pods_OCRepo_Example;
 			productReference = E4A7CC036EFC1252978EBAABAA48A5C8 /* Pods-OCRepo_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3BBBD0AF3E51B0B83A19D57DECC5732 /* XYLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F912993BEBF9775B9E5B03DDE8C526 /* Build configuration list for PBXNativeTarget "XYLog" */;
+			buildPhases = (
+				AE4F5620B3596306F13BCA050DDDBEEA /* Headers */,
+				DBAB90F0DA357D2829BB4460B3E2F495 /* Sources */,
+				C6D29F1912ADE89A3201196BEBC96B7C /* Frameworks */,
+				09FEB64AC17E61B1E0F584F08D9250B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYLog;
+			productName = XYLog;
+			productReference = A9E4DE2FB93D49FA6A72756879E1BBAF /* XYLog */;
 			productType = "com.apple.product-type.framework";
 		};
 		BB60C5C230110035501DEAA59B3F06CF /* MotivationalBook */ = {
@@ -501,7 +545,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E5F8EFA3C635A6AFB40101B1A12869FB /* Products */;
+			productRefGroup = 028A9758BDAFD1A642D277D30F41D317 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -515,6 +559,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		09FEB64AC17E61B1E0F584F08D9250B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B412CF3F7939A5AAF9EB7C688C53F34B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -558,8 +609,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED20B850E0E4C8967F387B804D626445 /* XYWeb.m in Sources */,
+				E5389395110E756FA99AB73702D88E3C /* XYWeb.m in Sources */,
 				2C6162670BA4D4B0B17CE9084E1C2DE4 /* XYWeb-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBAB90F0DA357D2829BB4460B3E2F495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C888A9F47D10E8842EA15077B7FAB6 /* XYLog.m in Sources */,
+				534D7CE422467118511183E984FD88C7 /* XYLog-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,29 +646,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		229920B20FFCD509A8925D14EB576980 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XYWeb;
-			target = 8F3CF7A33DF0C90D8BF3B6E2F1679382 /* XYWeb */;
-			targetProxy = 06ADAA0B9CDCAC6DF7FEC5C1E4231AEA /* PBXContainerItemProxy */;
-		};
-		A4FCECD31204394E179C1FE0CE0A2C69 /* PBXTargetDependency */ = {
+		237F59EE5AB5176EEE0FF7D1AE500CCA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XYLog;
 			target = A3BBBD0AF3E51B0B83A19D57DECC5732 /* XYLog */;
-			targetProxy = 38FBB87C62E152FC97766FDD548DAC0F /* PBXContainerItemProxy */;
+			targetProxy = C614A81676AD4F2C5AC0B2D0EE15A1BE /* PBXContainerItemProxy */;
 		};
-		AE2AFC4A4AD3E4A2356A5A9146C3319D /* PBXTargetDependency */ = {
+		2458ED7B1DCD50B01751A66F78F6CBBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MotivationalBook;
 			target = BB60C5C230110035501DEAA59B3F06CF /* MotivationalBook */;
-			targetProxy = A5483C5934E70B7464BB66BDAF045314 /* PBXContainerItemProxy */;
+			targetProxy = 18EA154E0D85B6E433F160D2C9CE2546 /* PBXContainerItemProxy */;
 		};
-		DA1669B80853478D229EA22390BBC9B1 /* PBXTargetDependency */ = {
+		2F5E089C836116E42B58FA515894F56A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ManagerBook;
 			target = 2D2FB2C5EA1737DCFCCAEA7FD178536D /* ManagerBook */;
-			targetProxy = B592A18033EB3BB15DFF1F26D9503492 /* PBXContainerItemProxy */;
+			targetProxy = FDD7F8F335692DA4374F9DC63922D422 /* PBXContainerItemProxy */;
+		};
+		C22026211E8D6C6F69EB108AD83D26A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XYWeb;
+			target = 8F3CF7A33DF0C90D8BF3B6E2F1679382 /* XYWeb */;
+			targetProxy = D564D35219EAAEAFC0F4C73619E6A90E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -709,7 +769,7 @@
 		};
 		7D6BF8C6FF2E0CE65275D41AB74F85BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DA1C6BB879CD3BCF2F4B91EAEDFE70A /* XYWeb.release.xcconfig */;
+			baseConfigurationReference = 5554F68BEEBA66F5F0AF3E5FD036279C /* XYWeb.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -801,6 +861,37 @@
 			};
 			name = Release;
 		};
+		8239092DF3FA5ED125C798CF17F3F685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A308CED65BC2A122A6EC2C29959284 /* XYLog.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XYLog/XYLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XYLog/XYLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XYLog/XYLog.modulemap";
+				PRODUCT_MODULE_NAME = XYLog;
+				PRODUCT_NAME = XYLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		8FE9ED8488A4F27E6D8EDE6CA7051A77 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F70B45736BED447DD1D164A089DA6F91 /* ManagerBook.release.xcconfig */;
@@ -832,24 +923,9 @@
 			};
 			name = Release;
 		};
-		A45F36E9FADE93AE0FD5B0C034E9DA16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE50E2E77CA59F6F802565FB5BFE273D /* XYLog.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		B80856F970A3EF5A3B5CCB1BACBEDA50 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CE4E21664FFEFFE52BBA2B0224CB5FF /* XYWeb.debug.xcconfig */;
+			baseConfigurationReference = 72310361A67F97312E34910C7A92AA9D /* XYWeb.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -978,6 +1054,38 @@
 			};
 			name = Debug;
 		};
+		E4A040B242E27C179E41DBBE9F1EB77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258535F67BE41972E042DEF81F08BEAF /* XYLog.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XYLog/XYLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XYLog/XYLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XYLog/XYLog.modulemap";
+				PRODUCT_MODULE_NAME = XYLog;
+				PRODUCT_NAME = XYLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		EE5C35DF45E68BD88A05945B555F41F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C1FA28D48D1F50C98EC02145306F57F /* MotivationalBook.release.xcconfig */;
@@ -1010,20 +1118,6 @@
 			};
 			name = Release;
 		};
-		F25F78492A1037A7226FAB7C3C52A028 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A418ACC0D3D82F6FA31672C104D8490 /* XYLog.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1032,15 +1126,6 @@
 			buildConfigurations = (
 				B80856F970A3EF5A3B5CCB1BACBEDA50 /* Debug */,
 				7D6BF8C6FF2E0CE65275D41AB74F85BC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		286A1AACA600C3A045EB258B9737FA08 /* Build configuration list for PBXAggregateTarget "XYLog" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F25F78492A1037A7226FAB7C3C52A028 /* Debug */,
-				A45F36E9FADE93AE0FD5B0C034E9DA16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1068,6 +1153,15 @@
 			buildConfigurations = (
 				350CE48C6A659405AD99F20145935AB3 /* Debug */,
 				EE5C35DF45E68BD88A05945B555F41F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3F912993BEBF9775B9E5B03DDE8C526 /* Build configuration list for PBXNativeTarget "XYLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8239092DF3FA5ED125C798CF17F3F685 /* Debug */,
+				E4A040B242E27C179E41DBBE9F1EB77D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

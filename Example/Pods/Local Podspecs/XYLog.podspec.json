@@ -18,5 +18,8 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "Packages/XYLog/XYLog/Classes/**/*"
+  "source_files": [
+    "Packages/XYLog/Classes/**/*",
+    "Classes/**/*"
+  ]
 }

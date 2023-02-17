@@ -18,5 +18,8 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "XYWeb/Classes/**/*"
+  "source_files": [
+    "Packages/XYWeb/Classes/**/*",
+    "Classes/**/*"
+  ]
 }
