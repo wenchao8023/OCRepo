@@ -2,7 +2,7 @@ PODS:
   - ManagerBook (0.1.8)
   - MotivationalBook (0.1.9)
   - XYLog (0.1.9)
-  - XYWeb (0.1.3)
+  - XYWeb (0.1.4)
 
 DEPENDENCIES:
   - ManagerBook
@@ -25,7 +25,7 @@ SPEC CHECKSUMS:
   ManagerBook: 8f757f17d4c18659c172fc77b7c35941ff8f371c
   MotivationalBook: ca1286bbde3768f681472dccfb0f76deaff3ae4c
   XYLog: aed0c049f1780ae22861a91865280d46fdc6c046
-  XYWeb: 6afc0b7a4ca3543bb4155244c6743971c3e8043f
+  XYWeb: 1c3b2fa0c2e49dd84f98f6597730636963ff2ecc
 
 PODFILE CHECKSUM: 53505d4b3e2bde6b4e5c47aa24aa91942b6ac178
 
