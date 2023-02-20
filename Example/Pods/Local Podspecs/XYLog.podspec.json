@@ -1,6 +1,6 @@
 {
   "name": "XYLog",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "summary": "A short description of XYLog.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wenchao8023/XYLog",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wenchao8023/OCRepo.git",
-    "tag": "XYLog_0.1.10"
+    "tag": "XYLog_0.1.11"
   },
   "platforms": {
     "ios": "10.0"
