@@ -46,8 +46,8 @@ platform :ios do
 		repo_update(package, spec_path, component)
 	end
 
-	desc "一次更新所有"
-	lane :update_all do
+	desc "更新组件"
+	lane :component_update do
 		component = select_component()
 		podspec_update(root_path, package, branch, component)
 		sh("cd #{root_path}")
